@@ -1,0 +1,140 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+    margin: 60px auto;
+   /* max-width: 800px;*/
+}
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+h2 {
+    font-size: 48px;
+}
+h1 {
+    font-size: 96px;
+}
+h3 {
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 0;
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+.about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.about-me {
+    display: flex;
+
+}
+.about-me div{
+    margin: 10px;
+}
+
+.about-text {
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid rgb(171, 248, 248);
+    padding: 20px;
+    flex: 1;
+}
+
+
+.homepage-link{
+   display: flex;
+   justify-content: center;
+color: var(--primary-color);
+}
+
+.email-link{
+
+   display: flex;
+   justify-content: center;
+   color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+      
+}
+.email-link:hover {
+    text-decoration: underline;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: 0.25rem !important;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 1rem;
+        
+}
+
+.primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
